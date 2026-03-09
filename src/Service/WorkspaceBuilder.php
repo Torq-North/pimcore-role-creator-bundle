@@ -1,13 +1,13 @@
 <?php
 
-namespace TorqIT\RoleCreatorBundle\Service;
+namespace TorqNorth\RoleCreatorBundle\Service;
 
 use Pimcore\Model\Asset;
 use Pimcore\Model\DataObject;
 use Pimcore\Model\Document;
 use Pimcore\Model\Exception\NotFoundException;
 use Pimcore\Model\User\Workspace;
-use TorqIT\RoleCreatorBundle\Enum\WorkspaceBuilderEnum;
+use TorqNorth\RoleCreatorBundle\Enum\WorkspaceBuilderEnum;
 
 class WorkspaceBuilder
 {

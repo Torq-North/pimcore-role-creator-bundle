@@ -9,15 +9,15 @@ services:
         # if you need to do this, you can override this setting on individual services
         public: false
 
-    TorqIT\RoleCreatorBundle\Command\:
+    TorqNorth\RoleCreatorBundle\Command\:
         resource: '../../Command/*'
         tags: ['console.command']
 
-    TorqIT\RoleCreatorBundle\Service\:
+    TorqNorth\RoleCreatorBundle\Service\:
         resource: "../../Service/*"
         public: true
 
-    TorqIT\RoleCreatorBundle\EventListener\RoleListener:
+    TorqNorth\RoleCreatorBundle\EventListener\RoleListener:
         tags:
         - {
             name: kernel.event_listener,

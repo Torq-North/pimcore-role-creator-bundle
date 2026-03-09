@@ -1,20 +1,20 @@
 {
-    "license": "proprietary",
-    "name": "torqit/pimcore-role-creator-bundle",
-    "type": "pimcore-bundle",
-    "require": {
-        "pimcore/pimcore": "^11.0 || ^12.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "TorqIT\\RoleCreatorBundle\\": "src"
-        }
-    },
-    "extra": {
-        "pimcore": {
-            "bundles": [
-                "TorqIT\\RoleCreatorBundle\\RoleCreatorBundle"
-            ]
-        }
+  "license": "proprietary",
+  "name": "torqnorth/pimcore-role-creator-bundle",
+  "type": "pimcore-bundle",
+  "require": {
+    "pimcore/pimcore": "^11.0 || ^12.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "TorqNorth\\RoleCreatorBundle\\": "src"
     }
+  },
+  "extra": {
+    "pimcore": {
+      "bundles": [
+        "TorqNorth\\RoleCreatorBundle\\RoleCreatorBundle"
+      ]
+    }
+  }
 }

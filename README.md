@@ -2,10 +2,10 @@
 
 ## Getting started
 
-1. This bundle is easily installed via composer: `composer require torqit/pimcore-role-creator-bundle`
+1. This bundle is easily installed via composer: `composer require torqnorth/pimcore-role-creator-bundle`
 2. In your config folder, add a `roles.yaml` file. Instructions on how to set up your roles is given below in the Roles Setup section.
-3. Make sure you register the `RoleCreatorBundle` in your `AppKernel.php` located at `\src\pimcore-root\app\AppKernel.php`. Registering the bundle is as easy as adding a line in the registerBundlesToCollection function, like so: `$collection->addBundle(new \TorqIT\RoleCreatorBundle\RoleCreatorBundle);`
-4. Run the bundle, with the command: `./bin/console torq:generate-roles`
+3. Make sure you register the `RoleCreatorBundle` in your `AppKernel.php` located at `\src\pimcore-root\app\AppKernel.php`. Registering the bundle is as easy as adding a line in the registerBundlesToCollection function, like so: `$collection->addBundle(new \TorqNorth\RoleCreatorBundle\RoleCreatorBundle);`
+4. Run the bundle, with the command: `./bin/console torqnorth:generate-roles`
 
 ## Role Setup
 
@@ -152,4 +152,3 @@ This bundle is licensed under the Pimcore Open Core License (POCL)
 and is intended for use with Pimcore Platform 2025.1 and newer.
 
 See LICENSE.md for full license text.
-

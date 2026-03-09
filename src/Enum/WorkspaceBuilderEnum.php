@@ -1,6 +1,6 @@
 <?php
 
-namespace TorqIT\RoleCreatorBundle\Enum;
+namespace TorqNorth\RoleCreatorBundle\Enum;
 
 enum WorkspaceBuilderEnum: string
 {

@@ -1,14 +1,14 @@
 <?php
 
-namespace TorqIT\RoleCreatorBundle\EventListener;
+namespace TorqNorth\RoleCreatorBundle\EventListener;
 
 use Pimcore\Event\Model\UserRoleEvent;
 use Pimcore\Model\User\Role;
 use Pimcore\Config;
 use Symfony\Component\Yaml\Yaml;
 use Pimcore\Model\User\Workspace;
-use TorqIT\RoleCreatorBundle\Enum\WorkspaceBuilderEnum;
-use TorqIT\RoleCreatorBundle\Service\RoleConfigService;
+use TorqNorth\RoleCreatorBundle\Enum\WorkspaceBuilderEnum;
+use TorqNorth\RoleCreatorBundle\Service\RoleConfigService;
 
 class RoleListener
 {

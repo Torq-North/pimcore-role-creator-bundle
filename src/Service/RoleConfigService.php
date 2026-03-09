@@ -1,6 +1,6 @@
 <?php
 
-namespace TorqIT\RoleCreatorBundle\Service;
+namespace TorqNorth\RoleCreatorBundle\Service;
 
 class RoleConfigService
 {

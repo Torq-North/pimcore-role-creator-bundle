@@ -1,6 +1,6 @@
 <?php
 
-namespace TorqIT\RoleCreatorBundle\Command;
+namespace TorqNorth\RoleCreatorBundle\Command;
 
 use Pimcore\Config;
 use Pimcore\Console\AbstractCommand;
@@ -10,8 +10,8 @@ use Pimcore\Model\User\Permission\Definition;
 use Pimcore\Model\User\Role;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
-use TorqIT\RoleCreatorBundle\Service\RoleConfigService;
-use TorqIT\RoleCreatorBundle\Service\WorkspaceBuilder;
+use TorqNorth\RoleCreatorBundle\Service\RoleConfigService;
+use TorqNorth\RoleCreatorBundle\Service\WorkspaceBuilder;
 
 class RoleCreatorCommand extends AbstractCommand
 {
@@ -27,7 +27,7 @@ class RoleCreatorCommand extends AbstractCommand
     protected function configure()
     {
         $this
-            ->setName('torq:generate-roles')
+            ->setName('torqnorth:generate-roles')
             ->setDescription('Command for creating user roles in the pimcore admin interface.');
     }
 
